@@ -27,7 +27,7 @@ function App() {
   return (
     <>
      <Switch>
-        <Route exact path="/" component={Homepage}/>
+        <Route path="/" component={Homepage}/>
         <Route exact path="/gallery" component={Galleryfront}/>
         <Route path="/gallery/label" component={Galleryback}/>
         <Route path="/about" component={AboutComp}/>
